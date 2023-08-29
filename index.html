@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>stock calculator</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container center">
+        <header class="flex">
+            <h1>T-Stock-Calculator</h1>
+        </header>
+        <div class="flex content">
+            <section class="flex">
+                <form id="my-form">
+                    <span>Your Budget : </span>
+                    <input type="number" id="Aukat" value="0" placeholder="Your Aukat">
+                    <span>Stock Price : </span>
+
+                    <input type="number" id="stockPrice" value="0" placeholder="stock price">
+                    <span>Quantity : </span>
+                    <input type="number" id="quantity" placeholder="quantity">
+                    <!-- <input type="number" id="buyPrice" placeholder="buy price"> -->
+
+                    <span> Sell Price : </span>
+
+                    <input type="number" id="sellPrice" placeholder="sell price">
+                </form>
+            </section>
+            <section class="flex flex-col result">
+                <h1 style=" margin: 20px;  color: #ff0101;">Stock calculation</h1>
+                <p>Invested ammount :- <span>0.00</span></p>
+                <p>Current value :- <span>0.00</span></p>
+                <p>Net profit :- <span style="font-weight: bold;">0.00</span></p>
+                <p>Profit/Loss in % :- <span style="font-weight: bold;">0.00</span></p>
+            </section>
+        </div>
+    </div>
+    <footer class="footer flex">
+        <div>
+            <h4>| 2022-23 |<a href="https://www.linkedin.com/in/rounak-singh-53b44022a"> Rounak Singh</a> |</h4>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

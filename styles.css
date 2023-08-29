@@ -1,0 +1,152 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+::selection {
+    color: #ffffff;
+    background-color: blueviolet;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    font-size: 0.625rem;
+    font-size: 2rem;
+    margin-bottom: 14px;
+    text-transform: capitalize;
+
+    color: aquamarine;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.content {
+    background-color: rgb(0, 0, 0);
+    padding: 3.125rem;
+
+}
+
+header {
+
+    background-color: rgb(28, 61, 61);
+    width: 100%;
+    height: 6.25rem;
+}
+
+header h1 {
+
+    text-shadow: 0 0 20px red;
+    word-spacing: 6px;
+    letter-spacing: 5px;
+    padding: 3px 30px;
+    text-transform: capitalize;
+    animation: liting infinite linear 4s;
+}
+#my-form span{
+    padding: 20px;
+}
+
+@keyframes liting {
+    0% {
+        text-shadow: 0 0 20px red;
+        color: rgb(238, 255, 0);
+    }
+
+    25% {
+        text-shadow: 0 0 20px rgb(238, 255, 0);
+        color: rgb(0, 17, 255);
+    }
+
+    50% {
+        text-shadow: 0 0 20px rgb(51, 255, 0);
+        color: rgb(255, 0, 0);
+    }
+
+    100% {
+        text-shadow: 0 0 20px rgb(255, 0, 0);
+        color: rgb(238, 255, 0);
+    }
+}
+
+section {
+
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #ff0101;
+}
+
+input,
+button {
+    display: block;
+    width: 18.75rem;
+    height: 3.125rem;
+    border-style: none;
+    margin-bottom: 2.0625rem;
+    border-radius: 6px;
+    padding: 0.9375rem;
+
+
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 30px #ff0101;
+
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+}
+
+@media screen and (max-width: 769px) {
+
+
+    .content {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+
+    }
+
+    p {
+        font-size: 1rem;
+
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
+    #my-form span{
+    font-size: 15px;
+}
+}
