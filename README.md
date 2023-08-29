@@ -8,7 +8,7 @@ The Stock Calculator project aims to help users evaluate their stock investments
 
 ## Demo Link
 
-You can access a live demo of the Stock Calculator project [here](https://t-stock-cal.onrender.com). Feel free to explore the application and calculate stock investment values.
+You can access a live demo of the Stock Calculator project [here](https://khprr4.csb.app/). Feel free to explore the application and calculate stock investment values.
 
 ## Technologies Used
 
